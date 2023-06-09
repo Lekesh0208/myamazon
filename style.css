@@ -39,7 +39,7 @@ cursor: pointer;
 /* box-1 */
 
 .logo {
-  background-image: url(/images/drive-download-20230606T170542Z-001/amazon_logo.png);
+  background-image: url(/images/amazon_logo.png);
   height: 5rem;
   width: 100%;
   background-size: cover;
@@ -184,7 +184,7 @@ font-size: 3rem;
 /* hero-section */
 
 .hero-section{
-  background-image: url(/images/drive-download-20230606T170542Z-001/hero_image.jpg);
+  background-image: url(/images/hero_image.jpg);
   height: 34rem;
   background-size: cover;
   display: flex;
@@ -224,6 +224,7 @@ font-size: 3rem;
   /* border: 2px solid black; */
   margin-top: 1.4rem;
   padding: 2.3rem 0rem 1.5rem;
+  
   
 
 }
@@ -350,17 +351,20 @@ a:hover{
      grid-template-columns: 30% 30% 30%;
     grid-template-rows: 40rem 40rem 40rem;
      
+    /* grid-gap: ; */
+    
     
 }
 .box{
   width: 99% ;
-  
+  /* margin-right: 4rem;
+  margin-left: 4rem; */
   
   
 }
-.box5{
+/* .box5{
   margin-top: 8rem;
-}
+} */
 
 .foot-panel1{
   margin-top: 8rem;
@@ -391,8 +395,11 @@ a:hover{
      /* flex-basis: 32%;  */
     /* flex-wrap: wrap; */
     /* justify-content: space-evenly;  */
-     grid-template-columns: 30% 30% 30%;
+     grid-template-columns: 45% 45%;
     grid-template-rows: 40rem 40rem 40rem;
+    grid-gap:7rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
      
     
 }
@@ -418,4 +425,10 @@ a:hover{
   
 }
 
+}
+
+@media(min-width:1180px){
+  .new_box{
+    display: none;
+  }
 }
