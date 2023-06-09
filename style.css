@@ -39,7 +39,7 @@ cursor: pointer;
 /* box-1 */
 
 .logo {
-  background-image: url(/images/amazon_logo.png);
+  background-image: url(images/amazon_logo.png);
   height: 5rem;
   width: 100%;
   background-size: cover;
@@ -184,7 +184,7 @@ font-size: 3rem;
 /* hero-section */
 
 .hero-section{
-  background-image: url(/images/hero_image.jpg);
+  background-image: url(images/hero_image.jpg);
   height: 34rem;
   background-size: cover;
   display: flex;
@@ -293,7 +293,7 @@ font-size: 3rem;
 }
 
 .foot-panel3 .logo{
-  background-image: url(/images/drive-download-20230606T170542Z-001/amazon_logo.png);
+  background-image: url(images/amazon_logo.png);
   height: 5rem;
   width: 10rem;
   background-size: cover;
